@@ -50,7 +50,16 @@ AIN0<-Input0 = potentiometer (connected with switch) LED2 wil
   Here is the sketch to set the voltage as estimated - see Image.
 
   The voltage set with PCF8591 DA is measured with Nano and PCF8591 AD (and with an instrument).
-  The precision is +/- 10mV
+  
+  The resolution (1 bit) is about 0.018V
+  The precision is +/- 2 bit
+  
+  Time needed for setting 1 voltage (AOut) and reading 1 channel: <1ms
+  
+  Conclusion:
+  This device is not so fast and precise - but it is cheap and enough for a lot of measurements.
+  And the LDR, Thermistor and Potentiometer may be useful AddOns.
+  
 
   Connections:
   
